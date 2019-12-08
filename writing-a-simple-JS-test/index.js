@@ -2,7 +2,7 @@
  * Simple testing of imported functions from a module.
  */
 
-const { add, subtract } = require("./math");
+const { add, subtract } = require("../math");
 
 let result;
 let expected;

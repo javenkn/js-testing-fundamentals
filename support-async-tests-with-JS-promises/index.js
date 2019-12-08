@@ -2,9 +2,9 @@
  * Dealing with async functions within our tests.
  */
 
-const { addAsync, subtractAsync } = require("./math");
+const { addAsync, subtractAsync } = require("../math");
 
-test("sum adds numbers", async () => {
+test("add sums numbers", async () => {
   const result = await addAsync(7, 3);
   const expected = 10;
   expect(result).toBe(expected);

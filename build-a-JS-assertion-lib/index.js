@@ -2,7 +2,7 @@
  * An assertion library with a "toBe" testing method.
  */
 
-const { add, subtract } = require("./math");
+const { add, subtract } = require("../math");
 
 let result;
 let expected;

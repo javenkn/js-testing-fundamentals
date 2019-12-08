@@ -2,9 +2,9 @@
  * An testing framework that encapsulates and isolates the tests.
  */
 
-const { add, subtract } = require("./math");
+const { add, subtract } = require("../math");
 
-test("sum adds numbers", () => {
+test("add sums numbers", () => {
   const result = add(7, 3);
   const expected = 10;
   expect(result).toBe(expected);
