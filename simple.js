@@ -1,5 +1,5 @@
 /**
- * Simple testing of imported functions from a module
+ * Simple testing of imported functions from a module.
  */
 
 const { add, subtract } = require("./math");
