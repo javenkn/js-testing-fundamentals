@@ -1,0 +1,19 @@
+{
+  "name": "testing-javascript",
+  "version": "1.0.0",
+  "description": "## Purpose",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javenkn/js-testing-fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javenkn/js-testing-fundamentals/issues"
+  },
+  "homepage": "https://github.com/javenkn/js-testing-fundamentals#readme"
+}
